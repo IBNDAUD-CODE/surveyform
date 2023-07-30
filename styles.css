@@ -1,0 +1,69 @@
+body {
+    /* Set the background image */
+    background-image: url('Untitled\ design\ \(2\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0 ;
+    color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+  
+p, h1{
+    text-align: center;
+    margin: 1em auto;
+    color: blueviolet;
+}
+input,select,textarea{
+    
+    width: 100%;
+    height: 2.5em;
+    background-color:cornflowerblue;
+    color: black;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+label{
+    display: block;
+    padding: 1em;
+}
+form{
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    width: 60vw;
+    background-color: rgb(76, 0, 255);
+    padding-bottom: 2em;
+    color:bisque;
+}
+fieldset{
+    border: none;
+    padding: 2rem 0;
+}
+input[type="submit"] {
+    margin: auto;
+    width: 60%;
+    border-color: white;
+    display: block;
+    min-width: 300px;
+    height:2em;
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+    color:bisque;
+}
+
+.inline{
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+    
+    width: unset;
+}
+textarea{
+    height: 70px;
+}
+.logo{
+    
+}
